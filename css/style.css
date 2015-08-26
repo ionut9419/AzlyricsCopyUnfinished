@@ -1,0 +1,638 @@
+body{
+    background-color: lightgray;
+    //font-family: arial, helvetica;
+    width: 100%;
+}
+#menu{
+    background-color: #919DEB;
+    //border: 1px solid black;
+    height: 45px;
+    margin-top: -8px;
+    margin-left: -8px;
+    padding: 5px;
+    padding-bottom: 0.1em;
+    width: 100%;
+}
+
+#menu ul{
+    //line-height: 0.1px;
+    margin-top: -30px;
+    //border: 1px solid black;
+    margin-left: 110px;
+}
+
+#image{
+    margin-left: 90px;
+    //border: 1px solid black;
+    width: 40px;
+    height: 40px;
+}
+
+#menu ul li{
+    display: inline;
+    text-decoration: none;
+    text-align: center;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    padding: 5px;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 18px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#menu ul li a:visited{
+    color: white;
+}
+
+#menu ul li a:hover{
+    background-color: #6B6BA1;
+}
+
+#searchbox{
+    //float: right;
+    margin-top: -45px;
+    margin-left: 1000px;
+}
+
+#searchbox #search{
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 3px;
+    height: 28px;
+    width: 200px;
+    padding-left: 10px;
+    border: 1px solid white;
+}
+
+#searchbox #search:focus{
+    border: 1px solid lightblue;
+}
+
+#searchbox #searchButton{
+    padding: 5px;
+    background-color: #6B6BA1;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    margin-left: -5px;
+    height: 33px;
+    width: 75px;
+    font-family: arial;
+    font-size: 15px;
+}
+
+#searchbox #searchButton:hover{
+    cursor: pointer;
+    background-color: darkblue;
+}
+
+hr{
+    height: 30px;
+    background-color: #6B6BA1;
+    border: none;
+    margin-top: -1px;
+    margin-left: -8px;
+    //width: 101.75%
+    width: 100%;
+}
+
+#facebook{
+    background-color: white;
+    width: 215px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+#facebook #photoLink img{
+    border: 1px solid black;
+    float: left;
+}
+
+#facebook #realLink {
+    text-decoration: none;
+    //float: left;
+    font-size: 20px;
+    margin-left: 3px;
+}
+
+#facebook #realLink:visited{
+   color: #6666FF;
+}
+
+#facebook #realLink:hover{
+    text-decoration: underline;
+}
+
+#facebook #likeButton{
+    float: none;
+    margin-left: 3px;
+    
+}
+
+#longPara{
+    width: 350px;
+    text-align: center;
+}
+
+#shortPara{
+    width: 350px;
+    text-align: center;
+}
+
+#welcome{
+    width: 350px;
+    text-align: center;
+    font-weight: 300;
+    color: black;
+    font-family: arial, helvetica;
+}
+
+#facebook{
+    margin-left: 60px;
+}
+
+#content1{
+    margin-left: 300px;
+}
+
+#content2{
+    //border: 1px solid black;
+    height: 700px;
+    width: 900px;
+    margin-left: 180px;
+}
+
+#hot{
+    text-align: center;
+    font-weight: 300;
+    font-family: arial, helvetica;
+}
+
+#grid{
+    margin-left: 120px;
+}
+
+.album{    
+    float: left;
+    //padding-left: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.album a:hover{
+    text-decoration: underline;
+}
+
+.album a:visited{
+    color: blue;
+}
+
+.album a{
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+.album span{
+    margin-left: 30px;
+
+}
+
+#footer1{
+    background-color: #919DEB;
+    padding: 3px;
+    margin-left: -8px;
+    margin-top: 20px;
+}
+
+#footer1 ul{
+    text-align: center;
+}
+
+#footer1 ul li{
+    display: inline;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+#footer1 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: arial, helvetica;
+}
+
+#footer1 ul li a:hover{
+    text-decoration: underline;
+}
+
+#footer1 ul li a:visited{
+    color: white;
+}
+
+#footer2 ul{
+    text-align: center;
+}
+
+#footer2 ul li{
+    text-decoration: none;
+    display: inline;
+    padding-right: 20px;
+}
+
+#footer2 ul li a{
+    text-decoration: none;
+    color: blue;
+    font-size: 13px;
+    font-family: arial, helvetica;
+}
+
+#footer2 ul li a:hover{
+    text-decoration: underline;
+}
+
+#footer2 ul li a:visited{
+    color: blue;
+}
+
+#footer3{
+    text-align: center;
+}
+
+#description{
+    font-size: 12px;
+    color: #333;
+    font-family: arial;
+    //line-height: 1px;
+}
+
+#copyright{
+    color: #333;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 2px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.linkList{
+    margin-left: 250px;
+    width: 250px;
+    font-size: 13px;
+    font-family: Verdana;
+    text-align: center;
+    //float: left;
+}
+
+.linkList a{
+    line-height: 20px;
+}
+
+.linkList a:visited{
+    color: blue;
+}
+
+.linkList a:hover{
+    text-decoration: underline;
+}
+
+#secondDivA{
+    margin-top: -5040px;
+    margin-left: 875px;
+}
+
+#footer1{
+    margin-top: 300px;
+}
+
+#secondDivB{
+    margin-top: -6280px;
+    margin-left: 875px;
+}
+
+#secondDivC{
+    margin-top: -5740px;
+    margin-left: 875px;
+}
+
+#secondDivD{
+    margin-top: -4820px;
+    margin-left: 875px;
+}
+
+#secondDivE{
+    margin-top: -2240px;
+    margin-left: 875px;
+}
+
+#secondDivF{
+    margin-top: -2840px;
+    margin-left: 875px;
+}
+
+#secondDivG{
+    margin-top: -3080px;
+    margin-left: 875px;
+}
+
+#secondDivH{
+    margin-top: -2940px;
+    margin-left: 875px;
+}
+
+#secondDivI{
+    margin-top: -1380px;
+    margin-left: 875px;
+}
+
+#secondDivJ{
+    margin-top: -4780px;
+    margin-left: 875px;
+}
+
+#secondDivK{
+    margin-top: -3140px;
+    margin-left: 875px;
+}
+
+#secondDivL{
+    margin-top: -4280px;
+    margin-left: 875px;
+}
+
+#secondDivM{
+    margin-top: -6500px;
+    margin-left: 875px;
+}
+
+#secondDivN{
+    margin-top: -2340px;
+    margin-left: 875px;
+}
+
+#secondDivO{
+    margin-top: -1340px;
+    margin-left: 875px;
+}
+
+#secondDivP{
+    margin-top: -3280px;
+    margin-left: 875px;
+}
+
+#secondDivQ{
+    margin-top: -290px;
+    margin-left: 875px;
+}
+
+#secondDivR{
+    margin-top: -4080px;
+    margin-left: 875px;
+}
+
+#secondDivS{
+    margin-top: -7440px;
+    margin-left: 875px;
+}
+
+#secondDivT{
+    margin-top: -4020px;
+    margin-left: 875px;
+}
+
+#secondDivU{
+    margin-top: -290px;
+    margin-left: 875px;
+}
+
+#secondDivV{
+    margin-top: -1240px;
+    margin-left: 875px;
+}
+
+#secondDivW{
+    margin-top: -2620px;
+    margin-left: 875px;
+}
+
+#secondDivX{
+    margin-top: -290px;
+    margin-left: 875px;
+}
+
+#secondDivY{
+    margin-top: -920px;
+    margin-left: 875px;
+}
+
+#secondDivZ{
+    margin-top: -290px;
+    margin-left: 875px;
+}
+
+#secondDiv19{
+    margin-top: -680px;
+    margin-left: 875px;
+}
+
+#likeButton{
+    background-color: #3366FF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    line-height: 1.5em;
+    font-size: 11px;
+    text-align: right;
+    width: 50px;
+    font-weight: bold;
+}
+
+#likeButton:hover{
+    background-color: slateblue;
+}
+
+#likeNumber{
+    width: 18px;
+}
+
+#like{
+    margin-left: 390px;
+}
+
+#artistHeader{
+    text-align: center;
+    font-family: arial, helvetica;
+    font-weight: bold;
+}
+
+#sortButtons{
+    text-align: center;
+}
+
+#videoButtonDiv{
+    text-align: center;
+    margin-top: -10px;
+}
+
+#videoButtonDiv button{
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+}
+
+#videoButtonDiv button:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+#relatedArtists{
+    text-align: center;
+    margin-top: 50px;
+    //border: 1px solid black;
+}
+
+#relArtLinks{
+    text-align: center;
+    margin-top: -10px;
+}
+
+#relArtLinks a{
+    font-size: 14px;
+}
+
+#relArtLinks a:hover{
+    text-decoration: underline;
+    color: slateblue;
+}
+
+#sortDiv{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#sortDiv button{
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+}
+
+#sortDiv button:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+#albums{
+    text-align: center;
+}
+
+#albums a:hover{
+    text-decoration: underline;
+    color: slateblue;
+}
+
+#amazon{
+    background-color:white;
+    box-shadow: 0px 1px 2px 0px;
+}
+
+#songs{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#songs a:hover{
+    text-decoration: underline;
+    color: slateblue;
+}
+
+#noResult{
+    padding: 20px;
+    background-color: papayawhip;
+    width:675px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 290px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: maroon;
+}
+
+#searchbox2{
+    //float: right;
+    margin-top: -20px;
+    margin-left: 290px;
+    margin-bottom: -280px;
+}
+
+#searchbox2 #search2{
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 3px;
+    height: 28px;
+    width: 630px;
+    padding-left: 10px;
+    border: 1px solid white;
+}
+
+#searchbox2 #search2:focus{
+    border: 1px solid lightblue;
+}
+
+#searchbox2 #searchButton2{
+    padding: 5px;
+    background-color: #6B6BA1;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    margin-left: -5px;
+    height: 33px;
+    width: 75px;
+    font-family: arial;
+    font-size: 15px;
+}
+
+#searchbox2 #searchButton2:hover{
+    cursor: pointer;
+    background-color: darkblue;
+}
+
+#artistResults{
+    margin-bottom: 50px;
+    background-color: #F0F0F0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 800px;
+    margin-left: 300px;
+    padding: 1px;
+}
+
+#artistResults p{
+    text-align: center;
+}
+
+#numberOfArtists{
+    margin-top: -15px;
+}
+
+#content{
+    
+}
